@@ -37,7 +37,7 @@ El umbral global fijo asume implícitamente que la noción de "normalidad" es ho
 ART resuelve esta limitación sustituyendo el umbral único por **umbrales locales asociados a cada neurona del SOM**:
 
 $$
-\theta_{(g_x, g_y)} = \operatorname{mediana}\bigl(E_{(g_x, g_y)}\bigr) + k \cdot 1{,}4826 \cdot \operatorname{MAD}\bigl(E_{(g_x, g_y)}\bigr)
+\theta_{(g_x, g_y)} = \mathrm{mediana}\bigl(E_{(g_x, g_y)}\bigr) + k \cdot 1{,}4826 \cdot \mathrm{MAD}\bigl(E_{(g_x, g_y)}\bigr)
 $$
 
 donde:
